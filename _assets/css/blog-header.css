@@ -3,7 +3,7 @@
   width: calc(100vw - 25px*2);
   margin: 0 25px 0 25px;
   height: 60px;
-  border-bottom: solid 1px var(--panna);
+  border-bottom: solid 0.5px #4D453E;
   background-color: var(--green);
   display: flex;
   flex-direction: row;

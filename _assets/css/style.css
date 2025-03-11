@@ -12,7 +12,8 @@ body{
   align-items: center;
   flex-direction: column;
   justify-content: end;
-  font-size: 600px;
+  font-size: 165px;
+  letter-spacing: 10px;
   font-weight: 100;
   
 }
