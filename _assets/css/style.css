@@ -2,7 +2,6 @@ body{
   overflow-x: hidden;
 }
 .first-page {
-  font-family: "Piazzolla";
   height: 100vh;
   opacity: 100%;
   width: 100vw;
@@ -13,7 +12,7 @@ body{
   align-items: center;
   flex-direction: column;
   justify-content: end;
-  font-size: 300px;
+  font-size: 600px;
   font-weight: 100;
   
 }
@@ -23,8 +22,8 @@ body{
   height: auto;
   display: flex;
   justify-content: center;
+  letter-spacing: 300px;
   align-items: center;
-  font-family: "Piazzolla";
   font-size: 735px;
   font-weight: 700;
   overflow: hidden;
