@@ -26,11 +26,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--green);
-  color: #fffcf3;
+  color: var(--panna);
 }
 :root{
   --green: #302721;
   --light-green: #3f332c;
   --line-green: #5f554f;
+  --light-blue: #7BAFD6;
+  --bianco: white;
+  --panna: #ECE7DD;
 }
 

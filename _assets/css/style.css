@@ -99,6 +99,7 @@ body{
   position: relative;
   width: 100%;
   height: 250px;
+  filter: grayscale(100%);
 }
 .post .image::before {
   content: "";
@@ -158,7 +159,8 @@ body{
   align-items: center;
   justify-content: space-between;
   gap: 9px;
-  padding: 9px 9px 9px 9px;
+  height: 350px;
+  padding: 9px;
   border: solid 1px var(--line-green);
   border-radius: 2px;
   flex-shrink: 0;
@@ -168,7 +170,7 @@ body{
 }
 .work .image-container {
   width: 100%;
-  height: 350px;
+  height: 100%;
   text-decoration: none;
 }
 
