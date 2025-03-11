@@ -31,8 +31,12 @@
   }
 }
 .header .titolo {
+  background-image: url(../svg/logo.svg);
+  background-size: cover;
+  height: 20px;
+  width: 20px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
   color: white;
   font-family: "Piazzolla";
   font-weight: 400;
