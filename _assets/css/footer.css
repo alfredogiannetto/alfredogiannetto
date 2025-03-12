@@ -1,7 +1,7 @@
 .contact {
   margin: auto;
   width: calc(100vw - 50px);
-  border-bottom: solid 1px var(--green);
+  border-bottom: solid 1px var(--panna);
   height: 100px;
   overflow: hidden;
   white-space: nowrap;
@@ -10,6 +10,7 @@
   font-size: 40px;
   position: relative;
   word-spacing: 10px;
+  color: var(--panna);
 }
 .scrolling-text{
   margin: auto;
@@ -40,7 +41,6 @@
   padding-top: 100px;
   margin: 300px auto auto auto;
   width: calc(100vw - 50px);
-  background-color: var(--panna);
 }
 .pie {
   margin: auto;
@@ -48,7 +48,7 @@
   height: 300px;
   display: flex;
  /*  background-color: var(--light-green); */
- border-bottom: solid 1px var(--green);
+ border-bottom: solid 0.5px var(--panna);
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
@@ -68,6 +68,7 @@
   font-family: "Piazzolla";
   font-size: 22px;
   text-align: center;
+  color: var(--panna);
 }
 .pie .social {
   display: flex;
@@ -93,7 +94,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 7px;
-  color: var(--green);
+  color: var(--panna);
 }
 .link {
   height: 20px;
@@ -111,7 +112,10 @@
   flex-direction: row;
   gap: 7px;
   text-decoration: none;
-  color: var(--green);
+  color: var(--panna);
+}
+.social2 a:hover{
+  text-decoration: underline;
 }
 #spotify{
   background-image: url(../svg/spotify.svg);
